@@ -1,0 +1,12 @@
+<div class="your-banner">
+  <h3><%= params[:question]%></h3>
+  <h3 class="author">-You</h3>
+</div>
+<br>
+<div class="coach-banner">
+  <h3 class="coach-quote"><%= @answer %></h3>
+  <h3 class="author">-Your Coach</h3>
+</div>
+<div class="link"> 
+  <%= link_to "Ask a new question", ask_path  %>
+</div>
